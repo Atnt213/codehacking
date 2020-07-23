@@ -12,9 +12,9 @@
 @section('content')
     <h1 class="text-center display-3">Welcome to the Admin Page!</h1>
 
-    <div class="row  mt-5 containerMainPage">
+    <div class="row mt-5">
 
-        <div class="col-3 border ml-n1">
+        <div class="col-3 mt-5">
             
             <nav class="navbar flex-column align-items-start navbar-dark bg-dark">
                 <a class="navbar-brand" href="/admin/users">Dashbord</a>
@@ -91,9 +91,7 @@
               </nav>
 
         </div>
-        <div class="col-9 border d-flex flex-column ">
-          <p class="h1">I'm the title of the content</p>
-
+        <div class="col-9 d-flex flex-column mt-n2">
           @yield('content')
         </div>
 

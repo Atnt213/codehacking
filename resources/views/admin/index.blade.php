@@ -1,5 +1,5 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h2>It's fucking working</h2>
+    <h2>Admin</h2>
 @endsection
