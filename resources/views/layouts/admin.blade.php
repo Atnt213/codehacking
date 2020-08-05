@@ -25,8 +25,8 @@
                         Users
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">All Users</a>
-                        <a class="dropdown-item" href="#">Create Users</a>
+                        <a class="dropdown-item" href="{{route('users.index')}}">All Users</a>
+                        <a class="dropdown-item" href="{{route('users.create')}}">Create Users</a>
                       </div>
                     </li>
                     <!-- Posts -->
