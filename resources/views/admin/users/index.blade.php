@@ -24,8 +24,8 @@
 
                     <tr>
                         <th scope="row">{{$user->id}}</th>
-                        <th><img height="50" src="{{$user->photo ? $user->photo->file : 'No Photo'}}" alt="img"></th>
-                        <td>{{$user->name}}</td>
+                        <th><img src="{{$user->photo ? $user->photo->file : 'No Image'}}" style="width:75px; border-radius:10%"></th>
+                        <td><a href="{{route('users.edit', $user->id)}}">{{$user->name}}</a></td>
                         <td>{{$user->email}}</td>
                         <td>{{$user->role_id == NULL ? 'No Role' : $user->role->name}}</td>
                         <td>{{$user->is_active == 1 ? 'Active' : 'Not Active'}}</td>
