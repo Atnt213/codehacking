@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,21 +14,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e933dff0-a1e3-4e1e-8cd1-73c8e75399e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codehacking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UsersEditRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1597177117Image 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1597177255Image 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1597177367Image 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1597177734Image 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/PostsCreateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_19_125454_create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597440984Image 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597857275Image 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597857317Image 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597857519Image 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597857638Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597857924Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597857933Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597858012Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597858332Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597858355Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597858396Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597859560Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597859606Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1597177734Image 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +186,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -185,7 +206,14 @@
       <workItem from="1597062447427" duration="52000" />
       <workItem from="1597062507684" duration="1162000" />
       <workItem from="1597173069200" duration="1285000" />
-      <workItem from="1597174364392" duration="3860000" />
+      <workItem from="1597174364392" duration="4130000" />
+      <workItem from="1597325907950" duration="2774000" />
+      <workItem from="1597349607093" duration="1971000" />
+      <workItem from="1597409691279" duration="99000" />
+      <workItem from="1597433284387" duration="1996000" />
+      <workItem from="1597690622655" duration="1394000" />
+      <workItem from="1597839349329" duration="6169000" />
+      <workItem from="1597855697066" duration="3041000" />
     </task>
     <servers />
   </component>
@@ -208,17 +236,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="251" y="139" width="1302" height="708" key="SettingsEditor" timestamp="1597174413334">
+    <state x="251" y="139" width="1302" height="708" key="SettingsEditor" timestamp="1597859647953">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="251" y="139" width="1302" height="708" key="SettingsEditor/0.0.2560.1040/-2560.0.2560.1040@0.0.2560.1040" timestamp="1597174413334" />
+    <state x="251" y="139" width="1302" height="708" key="SettingsEditor/0.0.2560.1040/-2560.0.2560.1040@0.0.2560.1040" timestamp="1597859647953" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1597066024382">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.2560.1040/-2560.0.2560.1040@0.0.2560.1040" timestamp="1597066024382" />
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1597173887262">
+    <state x="1512" y="252" key="Vcs.Push.Dialog.v2" timestamp="1597327170038">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/-2560.0.2560.1040@0.0.2560.1040" timestamp="1597173887262" />
+    <state x="1512" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/-2560.0.2560.1040@0.0.2560.1040" timestamp="1597327170038" />
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1597842281359">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1583" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/-2560.0.2560.1040@0.0.2560.1040" timestamp="1597842281359" />
   </component>
 </project>

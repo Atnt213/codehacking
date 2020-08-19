@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-    <h1>{{$user->name}}</h1>
+    <h1>Edit {{$user->name}}</h1>
 
     <div class="row mb-3">
 
@@ -48,6 +48,16 @@
             </div>
 
             {!! Form::close() !!}
+
+
+            {!! Form::open(['method'=>'DELETE', 'action'=>['AdminUsersController@destroy', $user->id]]) !!}
+
+            <div class="mt-3">
+                {!! Form::submit('Delete User', ['class'=>'btn btn-danger']) !!}
+            </div>
+
+            {!! Form::close() !!}
+
 
         </div>
 

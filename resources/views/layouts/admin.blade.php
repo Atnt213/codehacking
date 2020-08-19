@@ -15,7 +15,7 @@
     <div class="row mt-5">
 
         <div class="col-3 mt-5">
-            
+
             <nav class="navbar flex-column align-items-start navbar-dark bg-dark">
                 <a class="navbar-brand" href="/admin/users">Dashbord</a>
                   <ul class="navbar-nav">
@@ -35,8 +35,8 @@
                         Posts
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">All Posts</a>
-                        <a class="dropdown-item" href="#">Create Post</a>
+                        <a class="dropdown-item" href="{{route('posts.index')}}">All Posts</a>
+                        <a class="dropdown-item" href="{{route('posts.create')}}">Create Post</a>
                       </div>
                     </li>
                     <!-- Categories -->
