@@ -1,6 +1,5 @@
 @extends('layouts.admin');
 
-
 @section('content')
 
     <h1>Posts</h1>
@@ -27,7 +26,7 @@
             <tr>
                 <td>{{$post->id}}</td>
                 <td><img style="height: 50px" src="{{$post->photo ? $post->photo->file : 'No Photo'}}"></td>
-                <td>{{$post->user->name}}</td>
+                <td><a href="{{route('posts.edit', $post->id)}}">{{$post->user->name}}</a></td>
                 <td>{{$post->category ? $post->category->name : 'Uncategorized'}}</td>
                 <td>{{$post->title}}</td>
                 <td>{{$post->body}}</td>

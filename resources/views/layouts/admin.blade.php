@@ -45,8 +45,8 @@
                         Categories
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">All Categories</a>
-                        <a class="dropdown-item" href="#">Create Category</a>
+                        <a class="dropdown-item" href="{{route('categories.index')}}">All Categories</a>
+                        <a class="dropdown-item" href="{{route('categories.create')}}">Create Category</a>
                       </div>
                     </li>
                     <!-- Media -->

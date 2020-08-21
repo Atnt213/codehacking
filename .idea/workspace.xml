@@ -14,14 +14,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e933dff0-a1e3-4e1e-8cd1-73c8e75399e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_19_175738_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1597860951Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597878239Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597878889Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597879835Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597879846Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597880169Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597880236Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/15978805051.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597880516Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597920987Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597921041Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597921057Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597921069Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597921593Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597921601Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597921608Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597921621Image 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597958574Image 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1597958607Image 4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/PostsCreateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/PostsCreateRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_19_125454_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_19_125454_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1597859560Image 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1597859606Image 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1597860951Image 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +211,13 @@
       <workItem from="1597433284387" duration="1996000" />
       <workItem from="1597690622655" duration="1394000" />
       <workItem from="1597839349329" duration="6169000" />
-      <workItem from="1597855697066" duration="4909000" />
+      <workItem from="1597855697066" duration="5566000" />
+      <workItem from="1597876901639" duration="3967000" />
+      <workItem from="1597920711782" duration="1623000" />
+      <workItem from="1597953572433" duration="951000" />
+      <workItem from="1598013552002" duration="233000" />
+      <workItem from="1598013798994" duration="599000" />
+      <workItem from="1598023220524" duration="2830000" />
     </task>
     <servers />
   </component>
@@ -198,6 +227,17 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
